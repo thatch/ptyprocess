@@ -10,7 +10,7 @@ assert sys.version_info >= (2, 7), (
     "Only python 2.7 and later is supported by ptyprocess.")
 
 setup(name='ptyprocess',
-      version='0.5',
+      version='0.6.0+setuptools1',
       description="Run a subprocess in a pseudo terminal",
       long_description=readme,
       author='Thomas Kluyver',
